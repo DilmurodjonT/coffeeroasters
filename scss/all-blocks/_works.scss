@@ -1,0 +1,82 @@
+.works {
+  &__title {
+    font-family: "Fraunces 9pt";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: $text-color-88F;
+    margin-bottom: 80px;
+  }
+  &__avatar {
+    padding-bottom: 67px;
+  }
+  &__line {
+    position: relative;
+  }
+  &__stick {
+    max-width: 760px;
+    border: 2px solid $text-color-6BA;
+  }
+  &__style {
+    position: absolute;
+    left: -5px;
+    bottom: -13px;
+  }
+  &__oval-1,
+  &__oval-2,
+  &__oval-3 {
+    display: inline-block;
+  }
+  &__oval-2 {
+    margin: 0 343px;
+  }
+
+  &__pisk {
+    padding-bottom: 200px;
+  }
+  &__cards {
+    display: flex;
+    column-gap: 95px;
+  }
+  &__card {
+    width: 285px;
+    h1 {
+      font-family: "Fraunces 9pt";
+      font-weight: 900;
+      font-size: 72px;
+      line-height: 72px;
+      color: $text-color-6BA;
+      margin-bottom: 38px;
+    }
+    h3 {
+      font-family: "Fraunces 9pt";
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 36px;
+      color: $text-color-D4B;
+      margin-bottom: 42px;
+    }
+    p {
+      font-family: "Barlow";
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: $text-color-D4B;
+    }
+  }
+  &__button {
+    margin-top: 64px;
+    button {
+      padding: 15px 31px;
+      background-color: $bg-color-784;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      font-family: "Fraunces 9pt";
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 25px;
+      color: $text-color-cf7;
+    }
+  }
+}
