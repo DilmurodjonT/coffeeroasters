@@ -1,4 +1,10 @@
 .works {
+  &__content {
+    max-width: 1280px;
+    background-color: rgb(115, 113, 113);
+    padding-top: 91px;
+    padding-left: 85px;
+  }
   &__title {
     font-family: "Fraunces 9pt";
     font-weight: 900;
